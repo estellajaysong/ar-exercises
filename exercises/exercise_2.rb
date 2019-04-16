@@ -7,7 +7,7 @@ puts "----------"
 @store1 = Store.first 
 puts @store1.name
 
-@store2 = Store.second # A QUERY!
+@store2 = Store.second 
 puts @store2.name
 
 @store1 = Store.first 
